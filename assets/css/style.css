@@ -30,7 +30,7 @@ a {
 }
 
 a:hover {
-  color: #c01f1f;
+  color: #3869e5;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -41,7 +41,7 @@ a:hover {
 
 .color-a {
   text-decoration: none;
-  color: #c01f1f;
+  color: #3869e5;
 }
 
 .color-d {
@@ -100,7 +100,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #c01f1f;
+  background-color: #3869e5;
 }
 
 .overlay-mf {
@@ -169,7 +169,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #c01f1f;
+  background-color: #3869e5;
   margin: 0 auto;
 }
 
@@ -187,7 +187,7 @@ a:hover {
   content: "";
   position: absolute;
   height: 3px;
-  background-color: #c01f1f;
+  background-color: #3869e5;
   width: 100px;
   bottom: -12px;
 }
@@ -227,12 +227,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #c01f1f;
+  box-shadow: 0 0 0 3px #3869e5;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #c01f1f;
+  background-color: #3869e5;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -256,7 +256,7 @@ a:hover {
 }
 
 .list-ico span {
-  color: #c01f1f;
+  color: #3869e5;
   margin-right: 10px;
 }
 
@@ -269,7 +269,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #c01f1f;
+  box-shadow: 0 0 0 10px #3869e5;
   display: block;
 }
 
@@ -314,7 +314,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #c01f1f;
+  background-color: #3869e5;
   opacity: 0.7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -338,7 +338,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #c01f1f;
+  background: #3869e5;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -352,7 +352,7 @@ a:hover {
 }
 
 .back-to-top:hover {
-  background: #c01f1f;
+  background: #3869e5;
   color: #fff;
 }
 
@@ -379,7 +379,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #c01f1f;
+  border-top: 6px solid #3869e5;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -424,7 +424,7 @@ a:hover {
 
 .button-a {
   text-decoration: none;
-  background-color: #c01f1f;
+  background-color: #3869e5;
   color: #fff;
   border-color: #cde1f8;
 }
@@ -575,7 +575,7 @@ a:hover {
   padding: 10px 20px;
   font-size: 14px;
   text-transform: none;
-  color: #c01f1f;
+  color: #3869e5;
 }
 
 .navbar .dropdown ul a i {
@@ -585,7 +585,7 @@ a:hover {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #c01f1f;
+  color: #3869e5;
 }
 
 .navbar .dropdown:hover>ul {
@@ -690,7 +690,7 @@ a:hover {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #c01f1f;
+  color: #3869e5;
 }
 
 .navbar-mobile .getstarted,
@@ -725,7 +725,7 @@ a:hover {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #c01f1f;
+  color: #3869e5;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -805,7 +805,7 @@ a:hover {
 
 .hero-single .breadcrumb {
   background-color: transparent;
-  color: #c01f1f;
+  color: #3869e5;
 }
 
 .hero-single .breadcrumb .breadcrumb-item:before {
@@ -856,7 +856,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
-  background-color: #c01f1f;
+  background-color: #3869e5;
 }
 
 /*--------------------------------------------------------------
@@ -873,7 +873,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #c01f1f;
+  background-color: #3869e5;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
@@ -968,17 +968,17 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #c01f1f;
+  color: #3869e5;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #c01f1f;
+  color: #3869e5;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #c01f1f;
+  color: #3869e5;
 }
 
 .work-content .w-like .num-like {
@@ -1010,11 +1010,11 @@ a:hover {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #c01f1f;
+  border: 1px solid #3869e5;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #c01f1f;
+  background-color: #3869e5;
 }
 
 .portfolio-details .portfolio-info {
@@ -1081,7 +1081,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #c01f1f;
+  color: #3869e5;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -1189,7 +1189,7 @@ a:hover {
 
 .php-email-form input:focus,
 .php-email-form textarea:focus {
-  border-color: #c01f1f;
+  border-color: #3869e5;
 }
 
 .php-email-form input {
@@ -1202,7 +1202,7 @@ a:hover {
 }
 
 .php-email-form button[type=submit] {
-  background: #c01f1f;
+  background: #3869e5;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1251,7 +1251,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #c01f1f;
+  background-color: #3869e5;
   border-radius: 4px;
 }
 
@@ -1324,7 +1324,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul {
-  border-left: 4px solid #c01f1f;
+  border-left: 4px solid #3869e5;
   margin-top: 1rem;
 }
 
@@ -1334,15 +1334,15 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul a {
-  color: #c01f1f;
+  color: #3869e5;
 }
 
 .blog-wrapper .post-meta ul span {
-  color: #c01f1f;
+  color: #3869e5;
 }
 
 .blog-wrapper .blockquote {
-  border-left: 4px solid #c01f1f;
+  border-left: 4px solid #3869e5;
   padding: 18px;
   font-style: italic;
 }
@@ -1379,7 +1379,7 @@ a:hover {
 }
 
 .box-comments .list-comments a {
-  color: #c01f1f;
+  color: #3869e5;
 }
 
 .box-comments .list-comments span {
@@ -1395,7 +1395,7 @@ a:hover {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #c01f1f;
+  border-left: 5px solid #3869e5;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -1412,7 +1412,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #c01f1f;
+  background-color: #3869e5;
   top: 20px;
 }
 
@@ -1423,8 +1423,8 @@ a:hover {
 }
 
 .sidebar-search .btn-search {
-  background-color: #c01f1f;
-  border-color: #c01f1f;
+  background-color: #3869e5;
+  border-color: #3869e5;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1432,7 +1432,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #c01f1f;
+  background-color: #3869e5;
   padding: 0.2rem 0.6rem;
   margin-bottom: 0.5rem;
   border-radius: 15px;
@@ -1451,7 +1451,7 @@ footer {
   text-align: center;
   color: #fff;
   padding: 25px 0;
-  background: #c01f1f;
+  background: #3869e5;
 }
 
 footer .copyright {
@@ -1471,7 +1471,7 @@ footer .credits a {
   display: inline-block;
   margin: 0 0.15rem ;
   padding: 2px 10px;
-  border: 2px solid #de1818;
+  border: 2px solid #3869e5;
   border-radius: 20px;
   background-color: white;
   color: black;
@@ -1483,8 +1483,8 @@ footer .credits a {
   display: inline-block;
   margin: 0 0.15rem ;
   padding: 2px 10px;
-  border: 2px solid #de1818;
-  background-color: #de1818;
+  border: 2px solid #1853de;
+  background-color: #1853de;
   border-radius: 20px;
   color: #eee;
   user-select:none;
@@ -1519,7 +1519,7 @@ footer .credits a {
 
 .button-link {
   display: inline-block;
-  background-color: #ff0d1d; /* Set your desired background color */
+  background-color: #1853de; /* Set your desired background color */
   color: #fff; /* Set the text color for the button */
   padding: 50px 80px; /* Set the padding to adjust the button size */
   border-radius: 15px; /* Set the border radius to create rounded corners */
@@ -1529,7 +1529,7 @@ footer .credits a {
 
 .button-link:hover  {
   display: inline-block;
-  background-color: #bf000d; /* Set your desired background color */
+  background-color: #1853de; /* Set your desired background color */
   color: #fff; /* Set the text color for the button */
   padding: 50px 80px; /* Set the padding to adjust the button size */
   border-radius: 15px; /* Set the border radius to create rounded corners */
