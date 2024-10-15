@@ -85,7 +85,7 @@
         <div class="container">
           <!--<p class="display-6 color-d">Hello, world!</p>-->
           <h1 class="hero-title mb-4">I am Raed Kharrat 👋🏻</h1>
-          <p class="hero-subtitle"><span class="typed" data-typed-items="Software Engineer Student, Freelancer,Looking for internship"></span></p>
+          <p class="hero-subtitle"><span class="typed" data-typed-items="Software Engineer Student, Freelancer,Looking for Graduating internship"></span></p>
           <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
         </div>
       </div>
@@ -105,13 +105,13 @@
                   <div class="row">
                     <div class="col-sm-6 col-md-5">
                       <div class="about-img">
-                        <img src="assets/img/jakkkkk.png" class="img-fluid rounded b-shadow-a" alt="">
+                        <img src="assets/img/jakkk.jpg" class="img-fluid rounded b-shadow-a" alt="">
                       </div>
                     </div>
                     <div class="col-sm-6 col-md-7">
                       <div class="about-info" style="margin-top: 3rem;" >
                         <p><span class="title-s">Name </span> <span>Kharrat Raed</span></p>
-                        <p><span class="title-s">Faculty </span> <span>Private Higher School of Engineering and Technology - ESPRIT</span></p>
+                        <p><span class="title-s">University </span> <span>ESPRIT school of Engineer</span></p>
                         <p><span class="title-s">Profile </span> <span>Software Engineer Student</span></p>
                         
 
@@ -159,10 +159,13 @@ I                     ’m experienced in web and mobile development , conceptio
                         <i class="bi bi-github" style="margin-right: 8px;"></i>Github
                       </a>
                       
-                      <a class="button" href="assets/img/ResumeRaedKharratPFESearch.pdf" download target="_blank" style="background-color: red; color: #fff; display: inline-flex; align-items: center; padding: 10px; text-decoration: none;">
+                      <!-- <a class="button" href="assets/img/ResumeRaedKharratPFESearch.pdf" download target="_blank" style="background-color: red; color: #fff; display: inline-flex; align-items: center; padding: 10px; text-decoration: none;">
                         <i class="bi bi-download" style="margin-right: 8px;"></i>Download resume
-                      </a>
-                      
+                      </a> -->
+                      <a class="button" href="#" onclick="alert('Resume download feature is on update, check this feature later !'); return false;" style="background-color: red; color: #fff; display: inline-flex; align-items: center; padding: 10px; text-decoration: none;">
+                        <i class="bi bi-download" style="margin-right: 8px;"></i>Download resume
+                    </a>
+                    
                   </div>
                         
                   </div>
@@ -217,6 +220,18 @@ I                     ’m experienced in web and mobile development , conceptio
           <div class="col-md-3">
             <div class="service-box">
               <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Software Development</h2>
+                
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="service-ico">
                 <span class="ico-circle"><i class="bi bi-brightness-high"></i></span>
               </div>
               <div class="service-content">
@@ -237,9 +252,23 @@ I                     ’m experienced in web and mobile development , conceptio
               </div>
             </div>
           </div>
+
+          <div class="col-md-3">
+            <div class="service-box">
+              <div class="service-ico">
+                <span class="ico-circle"><i class="bi bi-card-checklist"></i></span>
+              </div>
+              <div class="service-content">
+                <h2 class="s-title">Deployment</h2>
+                
+              </div>
+            </div>
+          </div>
           
           
         </div>
+
+      
       </div>
     </section><!-- End Services Section -->
 
@@ -397,6 +426,307 @@ I                     ’m experienced in web and mobile development , conceptio
 
     </style>
     
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.filter-btn').click(function() {
+            var filterValue = $(this).attr('data-filter');
+            if (filterValue == 'all') {
+                $('.experience-card').show();
+            } else {
+                $('.experience-card').hide();
+                $('.experience-card').filter(function() {
+                    return $(this).find('.badge').text().indexOf(filterValue) > -1;
+                }).show();
+            }
+        });
+    });
+    </script>
+    
+    <!-- Professional Experience Section -->
+<!-- Professional Experience Section -->
+<section id="experience" class="portfolio-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">Professional Experience</h3>
+          <p class="subtitle-a">Here is an overview of my professional journey</p>
+          <div class="line-mf"></div>
+        </div>
+      </div>
+    </div>
+    <div class="dropdown text-center mb-4">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+          Filter Experience
+      </button>
+      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item" href="#" data-filter="all">All</a></li>
+          <li><a class="dropdown-item" href="#" data-filter="Hybrid">Hybrid</a></li>
+          <li><a class="dropdown-item" href="#" data-filter="On-site">On-site</a></li>
+          <li><a class="dropdown-item" href="#" data-filter="Freelance">Freelance</a></li>
+          <li><a class="dropdown-item" href="#" data-filter="Remote">Remote</a></li>
+      </ul>
+  </div>
+  
+  
+    <!-- Experience Card 1 -->
+    <div class="row justify-content-center">
+      <div class="col-md-8 mb-4">
+        <div class="card experience-card shadow-sm">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-mobile-alt experience-icon"></i>
+              <div>
+                <h4 class="card-title">Mobile Developer Intern</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Esprit School of Engineer | Jul-Sep 2024 <span class="badge bg-secondary ms-2">Hybrid</span></h6>
+              </div>
+            </div>
+            <p class="card-text">
+              Developed a mobile application to streamline teacher management, focusing on student notes and grades.
+              Collaborated with educators for requirement gathering and user experience design.
+              Enhanced functionality through robust solutions, testing, and debugging.            </p>
+            <h6 class="mt-3"><strong>Technologies</strong></h6>
+            <div class="badge-container">
+              <span class="badge tech-badge">Flutter</span>
+              <span class="badge tech-badge">Node.js</span>
+              <span class="badge tech-badge">MongoDB</span>
+              <span class="badge tech-badge">Github</span>
+              <span class="badge tech-badge">Figma</span>
+              <span class="badge tech-badge">MVVM Patterns architecture</span>
+              <span class="badge tech-badge">Agile</span>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Card 2 -->
+      <div class="col-md-8 mb-4">
+        <div class="card experience-card shadow-sm">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-code experience-icon"></i>
+              <div>
+                <h4 class="card-title">FullStack Developer</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Strapi | Feb-May 2024<span class="badge bg-secondary ms-2">Remote</span></h6>
+              </div>
+            </div>
+            <p class="card-text">
+              Strapi-Gen is an innovative plugin that simplifies your development process. Effortlessly generate your database schema and create standard and advanced web services. dock your project and push it seamlessly to your Git repository. Automated workflows and gain valuable insights through intuitive class diagrams, providing clear visual representations of your database.</p>
+            <h6 class="mt-3"><strong>Technologies</strong></h6>
+            <div class="badge-container">
+              <span class="badge tech-badge">Node.js</span>
+              <span class="badge tech-badge">LocalDB</span>
+              <span class="badge tech-badge">Strapi</span>
+              <span class="badge tech-badge">React.js</span>
+              <span class="badge tech-badge">Bootstrap</span>
+              <span class="badge tech-badge">Git</span>
+              <span class="badge tech-badge">Docker</span>
+              <span class="badge tech-badge">Hexagonal architecture pattern</span>
+              <span class="badge tech-badge">CI/CD</span>
+              <span class="badge tech-badge">Agile</span>
+
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Card 2 -->
+      <div class="col-md-8 mb-4">
+        <div class="card experience-card shadow-sm">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-code experience-icon"></i>
+              <div>
+                <h4 class="card-title">FullStack Developer</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Soberank | Jul 2022 - Sep 2023 <span class="badge bg-secondary ms-2">Remote</span></h6>
+              </div>
+            </div>
+            <p class="card-text">
+              Specializing in backend development, I built robust web and mobile applications using Node.js, Symfony, SpringBoot, Angular, React.js, and Flutter. My expertise includes cloud services and API integration. I led full-stack development projects, ensuring scalability and security. Throughout the process, I maintained effective communication with clients, transforming their concepts into fully functional applications from initial design to deployment. My collaborative approach and attention to detail ensure that client visions are realized seamlessly.</p>
+            <h6 class="mt-3"><strong>Technologies</strong></h6>
+            <div class="badge-container">
+              <span class="badge tech-badge">PHP Frameworks</span>
+              <span class="badge tech-badge">JS Frameworks</span>
+              <span class="badge tech-badge">Java Frameworks</span>
+              <span class="badge tech-badge">MySQl</span>
+              <span class="badge tech-badge">NoSQl</span>
+              <span class="badge tech-badge">MVC Architecture Pattern</span>
+              <span class="badge tech-badge" style="margin: 5px;">Micro-Service Architecture Pattern</span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Card 3 -->
+      <div class="col-md-8 mb-4">
+        <div class="card experience-card shadow-sm">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-server experience-icon"></i>
+              <div>
+                <h4 class="card-title">FullStack Developer Intern</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Esprit School of Business | Jun-Jul 2023 <span class="badge bg-secondary ms-2">On-site</span></h6>
+              </div>
+            </div>
+            <p class="card-text">
+              Spearheaded a complete overhaul of the Esprit School of Business website, focusing on both performance and security.
+              Designed a secure user management system, integrating OAuth 2.0 and JWT.
+              Developed a responsive user interface using React.js based on Figma designs.            </p>
+            <h6 class="mt-3"><strong>Technologies</strong></h6>
+            <div class="badge-container">
+              <span class="badge tech-badge">SpringBoot</span>
+              <span class="badge tech-badge">PostgreSQL</span>
+              <span class="badge tech-badge">React.js</span>
+              <span class="badge tech-badge">Bootstrap</span>
+              <span class="badge tech-badge">Github</span>
+              <span class="badge tech-badge">Agile</span>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Card 4 -->
+      <div class="col-md-8 mb-4">
+        <div class="card experience-card shadow-sm">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-desktop experience-icon"></i>
+              <div>
+                <h4 class="card-title">FullStack Developer</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Upwork | Sep-Dec 2022 <span class="badge bg-secondary ms-2">Freelance</span></h6>
+              </div>
+            </div>
+            <p class="card-text">
+              Developed a travel management solution with advanced technologies such as Ajax, jQuery, and Stripe for payment processing.
+              Optimized user experience through real-time notifications, automated communications, and statistical charts integration.            </p>
+            <h6 class="mt-3"><strong>Technologies</strong></h6>
+            <div class="badge-container">
+              <span class="badge tech-badge">Symfony</span>
+              <span class="badge tech-badge">Twig</span>
+              <span class="badge tech-badge">JavaScript</span>
+              <span class="badge tech-badge">Stripe</span>
+              <span class="badge tech-badge">JQuery</span>
+              <span class="badge tech-badge">MySql</span>
+              <span class="badge tech-badge">MVC Pattern architecture</span>
+
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Card 5 -->
+      <div class="col-md-8 mb-4">
+        <div class="card experience-card shadow-sm">
+          <div class="card-body">
+            <div class="d-flex align-items-center mb-3">
+              <i class="fas fa-gamepad experience-icon"></i>
+              <div>
+                <h4 class="card-title">IT Support</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Tunisie Telecom | 2022 <span class="badge bg-secondary ms-2">Hybrid</span></h6>
+              </div>
+            </div>
+            <p class="card-text">
+              Provided IT support with a focus on data analysis using Microsoft Excel and Python for process automation.
+              Managed project tasks efficiently using Trello, ensuring seamless team collaboration.            </p>
+            <h6 class="mt-3"><strong>Technologies</strong></h6>
+            <div class="badge-container">
+              <span class="badge tech-badge">Microsoft Excel</span>
+              <span class="badge tech-badge">Trello</span>
+              <span class="badge tech-badge">Python</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Styles inside the same code -->
+<style>
+  /* Experience Card Hover Effect */
+  .experience-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .experience-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Experience Icon Style */
+  .experience-icon {
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #007bff;
+  }
+
+  /* Badge Styles */
+  .badge-container {
+    margin-top: 10px;
+  }
+
+  .tech-badge {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    margin: 0 5px; /* Spacing between badges */
+    padding: 5px 10px; /* Padding for badges */
+    border-radius: 15px; /* Rounded edges */
+    font-size: 0.9rem; /* Font size */
+  }
+
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .experience-icon {
+      font-size: 1.5rem;
+    }
+
+    .card-title {
+      font-size: 1.25rem;
+    }
+
+    .card-subtitle {
+      font-size: 1rem;
+    }
+
+    .tech-badge {
+      font-size: 0.8rem; /* Adjusted badge size for mobile */
+    }
+  }
+
+  /* Badge Style */
+  .badge {
+    font-size: 0.9rem;
+    padding: 0.4em 0.6em;
+  }
+
+  /* Additional Global Styles */
+  body {
+    background-color: #f8f9fa; /* Light background */
+  }
+
+  .title-box {
+    margin-bottom: 50px;
+  }
+
+  .line-mf {
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+    margin: 0 auto;
+  }
+</style>
+
 
     <!-- ======= Portfolio Section ======= -->
     <section id="blog" class="portfolio-mf sect-pt4 route">
@@ -698,6 +1028,9 @@ I                     ’m experienced in web and mobile development , conceptio
       </div>
     </section><!-- End Portfolio Section -->
 
+
+
+    
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(assets/img/backfinal.png)">
       <div class="overlay-mf"></div>
